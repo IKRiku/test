@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Priority Demonstration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <style>
+        h1 {
+            color: #2E86C1; /* Blue */
+            font-size: 45px;
+        }
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body style="background-color: #F4F7F6; text-align: center;">
+
+    <h1>Understanding CSS Precedence (H1)</h1>
+    
+    <p style="color: #E67E22;">This text uses Inline CSS (Orange)</p>
+    
+    <p>This text follows Internal/External CSS rules</p>
+
+    <br><br>
+
+    <table border="2" style="margin: auto; border-collapse: collapse;">
+        <tr>
+            <td style="padding: 30px;">
+                <strong>Order of Precedence:</strong><br>
+                Inline > Internal > External
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
